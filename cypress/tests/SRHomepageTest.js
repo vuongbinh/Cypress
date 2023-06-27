@@ -8,12 +8,20 @@ describe('SR Homepage Test', () => {
         cy.log(index);
     });
     });
-    it.only('Should be abke to interact with component', () => {
+    it('Should be abke to interact with component', () => {
         cy.visit('https://www.simplyrecipes.com/');
         const srHomePage =  new SRHomePage();
         srHomePage.heroComponent().cardTitle.each(($title,index) => {
             cy.log($title.text().trim())
             cy.log(index);
         });
+    });
+    it.only('Get data from an element', () => {
+        cy.visit('https://www.simplyrecipes.com/');
+        new SRHomePage().getCardTitle().then(title => {
+            cy.wrap('').then(()=>{
+                expect(title).to.be.eq('Lentil Salad with Summer Vegetables')
+            })
+        })
     });
 }); 

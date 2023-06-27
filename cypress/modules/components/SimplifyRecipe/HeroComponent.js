@@ -8,4 +8,5 @@ export class herocomponent {
    get cardTitle(){
       return this.component.find('.card__title');
    }
+   
 }
