@@ -1,5 +1,5 @@
-import AmzHomepage from "../modules/pages/AmzHomepage";
-import AmazonSearchResultPage from "../modules/pages/AmzSearchResultpage";
+import AmzHomepage from "../../modules/pages/AmzHomepage";
+import AmazonSearchResultPage from "../../modules/pages/AmzSearchResultpage";
 
 describe("Amazon search function", () => {
     it("Verify user is able to search a dining table", () => {

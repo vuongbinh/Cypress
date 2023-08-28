@@ -1,4 +1,4 @@
-import { SRHomePage } from "../modules/pages/SRHomepage";
+import { SRHomePage } from "../../modules/pages/SRHomepage";
 
 describe('SR Homepage Test', () => {
     it('should be able to get all titles', () => {

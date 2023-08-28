@@ -1,5 +1,5 @@
-import {homeAPI} from "../support/homeAPI";
-import DemoBlazePage from "../modules/pages/DemoBlazePage";
+import {homeAPI} from "../../support/homeAPI";
+import DemoBlazePage from "../../modules/pages/DemoBlazePage";
 
 describe('Demo Blaze Login test', () => {
     let apiProduct
