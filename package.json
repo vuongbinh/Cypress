@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open",
-    "test": "cypress run --browser chrome --headed"
+    "test": "cypress run --browser chrome --headed",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "12.12.0"
-  },
-  "scripts": {
-    "start": "node index.js"
-}
+  }
 }
