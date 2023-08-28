@@ -1,5 +1,5 @@
-import DemoBlazePage from "../modules/pages/DemoBlazePage";
-import { homeAPI } from "../support/homeAPI";
+import DemoBlazePage from "../../modules/archive/pages/DemoBlazePage";
+import { homeAPI } from "../../support/archive/homeAPI";
 
 describe('DemoBlaze Home Page', () => {
     let apiRes 

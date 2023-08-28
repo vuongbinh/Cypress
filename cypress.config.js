@@ -1,11 +1,9 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'do9rqb',
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-    specPattern: "./cypress/tests/**.*",
+    specPattern: "./cypress/tests/*/*",
     baseUrl: "https://demoblaze.com/"
   },
   defaultCommandTimeout: 10000
