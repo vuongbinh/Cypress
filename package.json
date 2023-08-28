@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open",
-    "test": "cypress run --browser chrome --headed"
+    "test": "cypress run --browser chrome --headed",
+    "start": "cypress run --browser chrome --headed"
   },
   "keywords": [],
   "author": "",
